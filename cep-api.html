@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumindo API</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="shortcut icon" href="favicon/Treetog-Junior-Mail.ico" type="image/x-icon">
+    <style>
+        body{
+            background-image: linear-gradient(to right, green,white);
+        }
+         h1 {
+            font: 45px arial;
+         }     
+    </style>
+</head>
+<body>
+    <body>
+
+        <div>
+            <br>
+            <h1>Busca pelo CEP</h1>
+            <br>
+            <hr>
+            <br>
+            <form id="cep" class="cepEstilo">
+                <input type="number" name="CEP" id="num" placeholder="Digite o CEP"/>
+                <button type="submit" id="buttom">buscar</button>      
+            </form>
+        </div>
+        <br>
+        <div>
+            <input type="text" disabled id="rua" placeholder="Rua"/>
+            <input type="text" disabled id="bairro" placeholder="Bairro"/>
+            <input type="text" disabled id="cidade" placeholder="Cidade"/>
+            <input type="text" disabled id="estado" placeholder="Estado"/>
+        </div>
+    
+    </div>
+    
+    <script src="cep.js"></script>
+    
+</body>
+</html>
